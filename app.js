@@ -13,7 +13,7 @@ const possibleWins = [
   [2, 4, 6]
 ];
 
-let board = ['','','','','','','','',''];
+let board = [];
 
 
 //game play
@@ -31,7 +31,7 @@ function setGame() {
   currentPlayer = 'X';
   turns=0;
   banner.innerHTML = '';
-
+  board = ['','','','','','','','',''];
 }
 
 function handleCellClick(click) {
